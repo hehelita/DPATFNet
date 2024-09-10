@@ -24,8 +24,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>Dual Position Attention Time-Frequency Network for Binaural Audio Synthesis</title>
+  <link rel="icon" type="image/x-icon" href="static/images/logo.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -43,6 +43,16 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+
+  <!-- <style>
+    body {
+        background-image: url('static/images/222.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+  </style> -->
+
 </head>
 <body>
 
@@ -52,68 +62,26 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+            <h1 class="title is-1 publication-title">Dual Position Attention Time-Frequency Network for Binaural Audio Synthesis</h1>
+                  <div class="is-size-5 publication-authors">
+                          <!-- Paper authors -->
+                    <span class="author-block" style="color: #06a7e7;">
+                            Changjun He
+                    </span>,
+                    <span class="author-block" style="color: #06a7e7;">
+                      Weiping Chen<sup><span style="color: black;">*</span></sup>
+                    </span>,
+                    <span class="author-block" style="color: #06a7e7;">
+                            Mingjiang Wang
+                    </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Harbin Institute of Technology, Harbin Institute of Technology (Shenzhen)<br>2025 IEEE International Conference on Acoustics, Speech, and Signal Processing</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Author</small></span>
                   </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+              
             </div>
           </div>
         </div>
@@ -127,18 +95,25 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
+      <h2 class="subtitle" style="text-align: left;">
+        The video below includes binauralized results of walking sounds, music, song, and speech. 
+        The silence video in our demo is from the dataset in BinauralSpeechSynthesis.   
+        Please enjoy it. 
+      </h2>
+      <video poster="" id="tree" autoplay controls muted loop height="100%" style="display: block; margin: 0 auto;">
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <source src="static/videos/demo.mp4"
         type="video/mp4">
       </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
+      <p style="text-align: left; margin-top: 5px; padding: 2px; border: 2px solid #ff9800; border-radius: 5px; background-color: #fff3e0;width: 45%;">
+        ⚠️ Please wear headphones when watching this video.
+      </p>  
     </div>
   </div>
 </section>
 <!-- End teaser video -->
+
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -148,7 +123,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            In applications such as virtual reality and augmented reality, binaural audio provides listeners with a more immersive experience. To synthesize binaural audio with enhanced spatial localization, especially in scenarios involving moving sound sources, accurate phase estimation is crucial. However, existing deep learning methods have yet to achieve satisfactory results in this area. To address this issue, this paper introduces a Dual Position Attention Time-Frequency Network (DPATFNet). Specifically, our approach targets the interaural differences and Doppler effects induced by sound source movement, guiding the synthesis process from monaural to binaural audio through strong positional conditions in the time-frequency domain. The network employs a Dual Position Attention Block (DPAB) to effectively focus on sound source movement and improve phase estimation performance. The proposed DPATFNet demonstrates a strong capability for synthesizing accurate binaural audio, with experimental results on the Binaural Speech dataset showing that DPATFNet achieves state-of-the-art performance in phase metrics (Phase-L2: 0.717, IPD-L2: 1.020, Wave-L2: 0.148, Amplitude-L2: 0.037).
           </p>
         </div>
       </div>
@@ -158,130 +133,187 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
+<!-- Audio Grid Section -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+      <h1 class="title">Samples from Binaural Speech Datasets</h1>
+      <table>
+        <!-- Repeat the row structure for the rest of the 35 audio files -->
 
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
+        <tr>
+          <th style="text-align: center; padding-right: 20px;"></th> <!-- 描述列 -->
+          <th style="text-align: center;">Mono</th>
+          <th style="text-align: center;">Groundtruth</th>
+          <th style="text-align: center;">WaveNet</th>
+          <th style="text-align: center;">WarpNet</th>
+          <th style="text-align: center;">BinauralGrad</th>
+          <th style="text-align: center;">NFS</th>
+          <th style="text-align: center;">DPATFNet (Ours)</th>
+          <!-- 继续添加其他表头描述 -->
+        </tr>
         
-      </div>
+        <tr>
+          <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong>Sample1</strong></td> <!-- 描述列 -->
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Mono/subject2_segment_1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/groundtruth/2_segment_1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Wavenet/subject2_segment_1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Warpnet/subject2_segment_1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/BinauralGrad/subject2_segment_1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/nfs/2_segment_1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/DPATFNet/subject2_segment_1.wav" type="audio/wav"></audio></td>
+        </tr>
+
+        <tr>
+          <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong>Sample2</strong></td> <!-- 描述列 -->
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Mono/subject3_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/groundtruth/3_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Wavenet/subject3_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Warpnet/subject3_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/BinauralGrad/subject3_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/nfs/3_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/DPATFNet/subject3_segment_6.wav" type="audio/wav"></audio></td>
+        </tr>
+
+        <tr>
+          <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong>Sample3</strong></td> <!-- 描述列 -->
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Mono/subject5_segment_2.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/groundtruth/5_segment_2.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Wavenet/subject5_segment_2.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Warpnet/subject5_segment_2.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/BinauralGrad/subject5_segment_2.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/nfs/5_segment_2.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/DPATFNet/subject5_segment_2.wav" type="audio/wav"></audio></td>
+        </tr>
+
+        <tr>
+          <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong>Sample4</strong></td> <!-- 描述列 -->
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Mono/subject4_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/groundtruth/4_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Wavenet/subject4_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Warpnet/subject4_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/BinauralGrad/subject4_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/nfs/4_segment_6.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/DPATFNet/subject4_segment_6.wav" type="audio/wav"></audio></td>
+        </tr>
+
+        <tr>
+          <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong>Sample5</strong></td> <!-- 描述列 -->
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Mono/subject6_segment_7.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/groundtruth/6_segment_7.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Wavenet/subject6_segment_7.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/Warpnet/subject6_segment_7.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/BinauralGrad/subject6_segment_7.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/nfs/6_segment_7.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 190px; margin-top: 10px;"><source src="static/audios/DPATFNet/subject6_segment_7.wav" type="audio/wav"></audio></td>
+        </tr>
+
+        <!-- Repeat for other rows as needed -->
+      </table>
+
+      <p style="text-align: left; margin-top: 5px; padding: 2px; border: 2px solid #ff9800; border-radius: 5px; background-color: #fff3e0;width: 31%;">
+        ⚠️ Please use headphones to listen to these audios.
+      </p>      
     </div>
-  </section>
-<!--End paper poster -->
+  </div>
+</section>
+<!-- End Audio Grid Section -->
+
+
+<!-- Audio Grid Section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">Music/Song and other sounds</h1>
+      <table>
+        <!-- Repeat the row structure for the rest of the 35 audio files -->
+
+        <tr> 
+          <th style="text-align: center; padding-right: 20px;"></th> <!-- 描述列 -->
+          <th style="text-align: center;">Mono</th>
+          <th style="text-align: center;">WaveNet</th>
+          <th style="text-align: center;">WarpNet</th>
+          <th style="text-align: center;">BinauralGrad</th>
+          <th style="text-align: center;">NFS</th>
+          <th style="text-align: center;">DPATFNet (Ours)</th>
+          <!-- 继续添加其他表头描述 -->
+        </tr>
+        
+
+        <tr>
+          <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong>Music1</strong></td> <!-- 描述列 -->
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Mono/04.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Wavenet/04.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Warpnet/04.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/BinauralGrad/04.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/nfs/04.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/DPATFNet/04.wav" type="audio/wav"></audio></td>
+        </tr>
+
+        <tr>
+          <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong>Music and bird call</strong></td> <!-- 描述列 -->
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Mono/02.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Wavenet/02.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Warpnet/02.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/BinauralGrad/02.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/nfs/02.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/DPATFNet/02.wav" type="audio/wav"></audio></td>
+        </tr>
+
+        <tr>
+          <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong>Music2</strong></td> <!-- 描述列 -->
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Mono/03.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Wavenet/03.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Warpnet/03.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/BinauralGrad/03.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/nfs/03.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/DPATFNet/03.wav" type="audio/wav"></audio></td>
+        </tr>
+
+  
+        <tr>
+          <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong>Song</strong></td> <!-- 描述列 -->
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Mono/05.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Wavenet/05.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Warpnet/05.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/BinauralGrad/05.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/nfs/05.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/DPATFNet/05.wav" type="audio/wav"></audio></td>
+        </tr>
+ 
+        <tr>
+          <td style="vertical-align: middle; text-align: center; padding-right: 10px;"><strong>Walking sound</strong></td> <!-- 描述列 -->
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Mono/01.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Wavenet/01.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/Warpnet/01.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/BinauralGrad/01.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/nfs/01.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 210px; margin-top: 10px;"><source src="static/audios/DPATFNet/01.wav" type="audio/wav"></audio></td>
+        </tr>
+
+        <!-- Repeat for other rows as needed -->
+      </table>
+      <p style="text-align: left; margin-top: 5px; padding: 2px; border: 2px solid #ff9800; border-radius: 5px; background-color: #fff3e0;width: 31%;">
+        ⚠️ Please use headphones to listen to these audios.
+      </p> 
+    </div>
+  </div>
+</section>
+<!-- End Audio Grid Section -->
+
+
+
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
-</section>
+</section> -->
 <!--End BibTex citation -->
+
 
 
   <footer class="footer">
@@ -307,6 +339,22 @@
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
-
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var audios = document.querySelectorAll('audio');
+  
+        audios.forEach(function(audio) {
+          audio.addEventListener('play', function() {
+            audios.forEach(function(otherAudio) {
+              if (otherAudio !== audio) {
+                otherAudio.pause();
+                otherAudio.currentTime = 0; // 可选：重置进度条
+              }
+            });
+          });
+        });
+      });
+    </script>
+    
   </body>
   </html>
